@@ -45,7 +45,19 @@ header{
         }
     }
 }
+
 .close-menu{
-    display: none;
+    display: block;
     cursor: pointer;
+}
+
+.nav-menu{
+    display: block;
+    height: 100vh;
+    background-color: $menu-color;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }

@@ -38,8 +38,18 @@ header div.logo h1 {
 }
 
 .close-menu {
-  display: none;
+  display: block;
   cursor: pointer;
+}
+
+.nav-menu {
+  display: block;
+  height: 100vh;
+  background-color: #616464;
+  width: 350px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
