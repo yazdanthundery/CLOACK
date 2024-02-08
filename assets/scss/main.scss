@@ -1,4 +1,4 @@
-@import 'config',url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'),'resets';
+@import 'config',url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'),'resets','shop-item';
 
 @function weight($weight-name){
     @return map-get($font-weights,$weight-name);

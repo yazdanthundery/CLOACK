@@ -44,30 +44,6 @@ const shopData = [
         "cost": "sold"
     }
 ]
-// const renderPosts = () =>{
-// const row = document.createElement("div");
-// row.classList.add("row","justify-content-center","gap-lg-1","border-0","mb-2")
-// const card = document.createElement("div");
-// card.classList.add("card","col-lg-3","col-md-4","border-0","shopping-item");
-//     shopData.map((item) => {
-//     const cardImg = document.createElement("img")
-//     const imgSrc = `${item.image}`
-//     cardImg.classList.add("card-img-top")
-//     cardImg.src = imgSrc;
-//     const cardBody = document.createElement("div")
-//     cardBody.classList.add("card-body")
-//     cardBody.innerHTML = `
-//       <h5 class="card-title">${item.title}</h5>
-//       <p class="card-text">${item.cost}</p>
-//     `;
-//     card.appendChild(cardImg);
-//     card.appendChild(cardBody);
-//     row.appendChild(card)
-// })  
-// shop.appendChild(row)
-// }
-// renderPosts()
-
 
 
 const renderPosts = () =>{
@@ -84,10 +60,7 @@ const renderPosts = () =>{
     shop.appendChild(card)
 })
 }
-
-
 renderPosts()
-
 
 
 openMenu.addEventListener('click',openM);
@@ -114,3 +87,4 @@ function closeS (){
     // searchBar.style.display = 'none'
     searchBar.style.top = '-100%'
 }
+

@@ -1,0 +1,22 @@
+.backg{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../img/DesktopLock2_300x.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sitem{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(218, 207, 207) !important;
+}
+.color-btn{
+    width: 30px;
+    height: 30px;
+
+}
+.sitem:hover{
+    box-shadow: 8px 8px 4px rgba(27, 33, 36,20%);
+    transition: 0.9s;
+    transform:scale(1.05,1.05)
+}
