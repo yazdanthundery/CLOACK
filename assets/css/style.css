@@ -96,5 +96,10 @@ header div.logo h1 {
   font-family: "Space Mono", monospace;
   color: #616464;
 }
+.shopping-item:hover {
+  box-shadow: 8px 8px 4px lightblue;
+  transition: 0.9s;
+  transform: scale(1.05, 1.05);
+}
 
 /*# sourceMappingURL=style.css.map */
