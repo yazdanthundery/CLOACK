@@ -111,6 +111,7 @@ header{
     &:hover{
         box-shadow: 8px 8px 4px lightblue;
         transition: 0.9s;
-        transform:scale(1.05,1.05)
+        transform:scale(1.01,1.01);
+        cursor: pointer;
     }
 }
