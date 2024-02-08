@@ -6,14 +6,19 @@
   text-decoration: none;
 }
 
+body {
+  text-transform: uppercase;
+}
+
 header {
   height: auto;
   width: auto;
   color: #ffffff;
 }
 header div img {
-  height: 100vh;
+  height: auto;
   width: 100%;
+  min-height: 650px;
 }
 header nav {
   position: absolute;
@@ -24,7 +29,6 @@ header nav {
 }
 header nav .btn {
   border: none;
-  color: #ffffff;
 }
 header nav .btn span {
   font-size: 2.5rem;
@@ -37,19 +41,60 @@ header div.logo h1 {
   text-transform: uppercase;
 }
 
-.close-menu {
-  display: block;
+#close-menu {
   cursor: pointer;
 }
 
-.nav-menu {
-  display: block;
+#nav-menu {
   height: 100vh;
   background-color: #616464;
   width: 350px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -100%;
+  transition: left 0.5s ease;
+  z-index: 3;
+}
+#nav-menu ul li {
+  list-style: none;
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+#nav-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#nav-menu li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#search-bar {
+  top: -100%;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  color: black;
+  transition: top 0.5s;
+}
+
+.sec1 h1, .sec1 h6 {
+  font-weight: 700;
+  color: #d4af37;
+}
+
+.sec2 h1 {
+  font-weight: 500;
+}
+.sec2 h1, .sec2 h6 {
+  font-family: "Space Mono", monospace;
+  color: #616464;
+}
+
+.shopping-item {
+  font-family: "Space Mono", monospace;
+  color: #616464;
 }
 
 /*# sourceMappingURL=style.css.map */
