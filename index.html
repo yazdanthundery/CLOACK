@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/font/icons/googlefont.css" />
+    <link rel="icon" href="assets/img/logo.jpg" type="image/icon">
     <script src="./assets/js/main.js" defer></script>
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
     <script src="https://kit.fontawesome.com/425f81037d.js" crossorigin="anonymous" defer></script>
@@ -18,39 +19,39 @@
             <img src="assets/img/DesktopLock2_300x.gif" alt="">
         </div>
         <nav class="d-flex align-items-center justify-content-between">
-            <div >
+            <div>
                <button class="btn"id="ham-menu">
                 <span class="material-symbols-outlined">
                 menu
                 </span>
-            </button>
-            <div id="nav-menu">
-                <div class="d-flex flex-column p-4 menu-slide">
-                    <div class="ms-auto" >
-                        <button class="btn"id="close-menu">
-                            <span class="material-symbols-outlined">
-                            close
-                            </span>
+                </button>
+                <div id="nav-menu">
+                    <div class="d-flex flex-column p-4 menu-slide">
+                        <div class="ms-auto" >
+                            <button class="btn"id="close-menu">
+                                <span class="material-symbols-outlined">
+                                close
+                                </span>
                             </button>
-                    </div>
-                    <div id="catagory" class="">
-                        <h5>shop sale by catagory</h5>
-                       <ul class="border-bottom">
-                        <li class=""><a href="#">tees</a></li>
-                        <li class=""><a href="#">tops</a></li>
-                        <li class=""><a href="#">bottoms</a></li>
-                        <li class=""><a href="#">accessories</a></li>
-                       </ul>
-                       <h5>shop by collection</h5>
-                       <ul class="border-bottom">
-                        <li><a href="#">free flow</a></li>
-                        <li><a href="#">tactical heat</a></li>
-                        <li><a href="#">static</a></li>
-                        <li><a href="#">covert</a></li>
-                       </ul>
+                        </div>
+                        <div id="catagory">
+                            <h5>shop sale by category</h5>
+                            <ul class="border-bottom">
+                            <li><a href="./pages/shop-item.html" target="_blank">tees</a></li>
+                            <li><a href="./pages/shop-item.html" target="_blank">tops</a></li>
+                            <li><a href="./pages/shop-item.html" target="_blank">bottoms</a></li>
+                            <li><a href="./pages/shop-item.html" target="_blank">accessories</a></li>
+                            </ul>
+                            <h5>shop by collection</h5>
+                            <ul class="border-bottom">
+                            <li><a href="./pages/shop-item.html" target="_blank">free flow</a></li>
+                            <li><a href="./pages/shop-item.html" target="_blank">tactical heat</a></li>
+                            <li><a href="./pages/shop-item.html" target="_blank">static</a></li>
+                            <li><a href="./pages/shop-item.html" target="_blank">covert</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             <div class="logo">
                 <h1>c l o a k</h1>
@@ -110,5 +111,45 @@
           </div>     
         </div>
     </article>
+    <footer class="footer">
+        <div class="container-fluid mx-auto footer">
+            <div class="d-flex flex-lg-row flex-column gap-4 footer">
+            
+                <div class="col d-flex flex-column justify-content-evenly">
+                    <h3 class="mb-4 mt-3 text-lg">quick access</h3>
+                    <ul class="d-flex flex-column">
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">home</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">about us</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">contact us</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">merch</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">services</a></li>
+                    </ul>
+                </div>
+                <div class="col d-flex flex-column">
+                    <h3 class="mb-4 mt-3 text-lg">more</h3>
+                    <ul class="d-flex flex-column">
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">future projects</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">details</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">history</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="#">faq</a></li>
+                        <li class="row"><a class="text-decoration-none mt-3" href="pages/login.html" target="_blank">sign in</a></li>
+                    </ul>
+                </div>
+                <div class="col d-flex flex-column">
+                    <h3 class="mb-4 mt-3 text-lg">subscribe for our lates drops</h3>
+  
+                    <div class="">
+                        <label class="form-label mb-3">
+                          <span>enter your email</span>
+                        </label> 
+                        <div class="relative d-flex rounded-3">
+                          <input type="email" placeholder="username@gmail.com" class="input w-100  p-3"> 
+                          <button class="btn rounded-0 p-3">subscribe</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </footer>
 </body>
 </html>

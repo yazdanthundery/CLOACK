@@ -61,6 +61,10 @@ div.login-box #check {
   width: 30px;
   height: 30px;
 }
+div.login-box input {
+  border-radius: 5px;
+  border: none;
+}
 
 body {
   color: #616464;
@@ -146,6 +150,7 @@ header div.logo h1 {
   position: absolute;
   color: black;
   transition: top 0.5s;
+  z-index: 4;
 }
 
 .sec1 h1, .sec1 h6 {
@@ -170,6 +175,16 @@ header div.logo h1 {
   transition: 0.9s;
   transform: scale(1.01, 1.01);
   cursor: pointer;
+}
+
+footer {
+  background-color: #1c1d1d;
+}
+footer h3, footer label, footer a {
+  color: #616464;
+}
+footer .btn {
+  background-color: #d4af37;
 }
 
 /*# sourceMappingURL=style.css.map */

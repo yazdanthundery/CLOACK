@@ -84,12 +84,18 @@ function closeM (){
 
 function openS (){
     // searchBar.style.display = 'block'
-    searchBar.style.top = '0'
+    searchBar.style.top = '0';
+    shadow.style.display = 'block';
 }
 function closeS (){
     // searchBar.style.display = 'none'
-    searchBar.style.top = '-100%'
+    searchBar.style.top = '-100%';
+    shadow.style.display = 'none';
 }
+const transfer = document.getElementsByClassName('.card')
 
+// transfer.addEventListener('click',function(){
+//     window.open('./assets/pages/shop-item.html')
+// })
 
 
