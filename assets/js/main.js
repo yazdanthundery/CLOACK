@@ -1,6 +1,7 @@
 const openMenu = document.getElementById('ham-menu');
 const closeMenu = document.getElementById('close-menu');
 const element = document.getElementById('nav-menu');
+const shadow = document.querySelector('.page-overlay')
 const searchBar = document.getElementById('search-bar')
 const openSearchBar = document.getElementById('search-btn');
 const closeSearchBar = document.getElementById('close-search-btn');
@@ -71,11 +72,13 @@ closeSearchBar.addEventListener('click',closeS);
 
 function openM () {
     // element.style.display = 'block';
+    shadow.style.display = 'block'
     element.style.left = '0';
     
 }
 function closeM (){
     // element.style.display = 'none';
+    shadow.style.display = 'none';
     element.style.left = '-100%';
 }
 
@@ -87,4 +90,6 @@ function closeS (){
     // searchBar.style.display = 'none'
     searchBar.style.top = '-100%'
 }
+
+
 

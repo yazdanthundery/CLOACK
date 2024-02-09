@@ -1,12 +1,25 @@
-@import 'config',url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'),'resets','shop-item';
+@import 'config',url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'),'resets','shop-item','login';
 
 @function weight($weight-name){
     @return map-get($font-weights,$weight-name);
 }
 
 body {
-    $text-color: $third-color;
+    color: $third-color;
     text-transform: uppercase;
+    position: relative;
+    
+    div.page-overlay{
+        display: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-color: rgba(37, 36, 36,90%);
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+    }
 }
 header{
     height: auto;

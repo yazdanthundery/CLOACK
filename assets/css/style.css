@@ -18,6 +18,7 @@
   height: 500px;
   width: 400px;
   background-color: rgb(218, 207, 207) !important;
+  font-family: "Space Mono", monospace;
 }
 
 .color-btn {
@@ -31,8 +32,51 @@
   transform: scale(1.05, 1.05);
 }
 
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.login-box {
+  height: 500px;
+  width: 400px;
+  background-color: rgba(196, 190, 190, 0.45) !important;
+  font-family: "Space Mono", monospace;
+}
+
+.login-bg {
+  height: 100vh;
+  width: 100%;
+}
+
+div.login-box #check {
+  width: 30px;
+  height: 30px;
+}
+
 body {
+  color: #616464;
   text-transform: uppercase;
+  position: relative;
+}
+body div.page-overlay {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: rgba(37, 36, 36, 0.9);
+  top: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 header {

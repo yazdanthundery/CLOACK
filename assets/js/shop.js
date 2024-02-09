@@ -12,3 +12,7 @@ blackCloak.addEventListener("click", function(){
     cloak.setAttribute("src","./../assets/img/black.jpg")
     cost.innerText = "59.99$"
 });
+
+const purchase = () =>{
+    window.open('./../pages/login.html')
+}
